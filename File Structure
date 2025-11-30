@@ -1,0 +1,79 @@
+algosquest-2025-project/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── setup.py
+├── config.yaml
+├── .env.example
+│
+├── docs/
+│   ├── INSTALLATION.md
+│   ├── API_DOCUMENTATION.md
+│   ├── ARCHITECTURE.md
+│   └── CONTRIBUTING.md
+│
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── ml_model.py
+│   │   └── data_preprocessing.py
+│   │
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── routes.py
+│   │   └── middleware.py
+│   │
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── helpers.py
+│   │   └── validators.py
+│   │
+│   └── database/
+│       ├── __init__.py
+│       ├── connection.py
+│       └── models.py
+│
+├── data/
+│   ├── raw/
+│   │   └── .gitkeep
+│   ├── processed/
+│   │   └── .gitkeep
+│   └── sample_data.csv
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_model_training.ipynb
+│   └── 03_evaluation.ipynb
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_models.py
+│   ├── test_api.py
+│   └── test_utils.py
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── components/
+│   │   └── styles/
+│   ├── package.json
+│   └── README.md
+│
+├── deployment/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── nginx.conf
+│
+└── scripts/
+    ├── train_model.py
+    ├── evaluate.py
+    └── deploy.sh
