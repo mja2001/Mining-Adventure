@@ -68,4 +68,3 @@ Moving forward, we envision several enhancements:
 - Continue research to incorporate latest AI advancements
 - Open-source components to contribute to the developer community
 
-We're committed to transforming this hackathon project into a sustainable solution that creates lasting impact in [domain/industry].
